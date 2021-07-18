@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLES</title>
+</head>
+<style>
+    body{
+        height:100vh;
+        display:grid;
+        place-items: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    table{
+        width:600px;
+        box-shadow: -1px 12px 12px -6px;
+        background-color: rgba(red, green, blue, alpha);
+    }
+    table,td,th{
+        padding:20px;
+        border:1px solid lightgray;
+        border-collapse:collapse;
+        text-align: center;
+        cursor: pointer;
+    }
+    td{
+        font-size: 18px;
+    }
+    th{
+        background-color: blue;
+        color:white;
+         }
+         tr:nth-child(even){
+             background-color: lightblue;
+         }
+         tr:nth-child(even):hover{
+             background-color: dodgerblue;
+             color:white;
+            
+         }
+</style>
+<body>
+    <table>
+        <tr>
+            <th>Subject & Post Details</th>
+            <th>Social Channels</th>
+            <th>Created On</th>
+            <th>Scheduled On</th>
+            
+        </tr>
+        <tr>
+            <td>This post is created on facebook</td>
+            <td>Facebook</td>
+            <td>12 May</td>
+            <td>22 May</td>
+    
+        </tr>
+        <tr>
+            <td>This post is created on linkedin</td>
+            <td>Linkedin</td>
+            <td>13 May</td>
+            <td>23 May</td>
+            
+        </tr>
+        <tr>
+            <td>This post is created on instagram</td>
+            <td>Instagram</td>
+            <td>14 May</td>
+            <td>24 May</td>
+        
+        </tr>
+        <tr>
+            <td>This post is created on Twitter</td>
+            <td>Twitter</td>
+            <td>15 May</td>
+            <td>25 May</td>
+            
+        </tr>
+    </table>
+</body>
+</html>
